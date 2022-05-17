@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estandares de audio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+   
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Estandares_Texto.html">Estándares de texto</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="Textos/ASCII.html"> ASCII</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Textos/Unicode.html"> Unicode</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Textos/RTF.html"> RTF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Textos/PostScript.html"> PostScript</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Textos/PDF.html"> PDF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Textos/comparacion.html"> Diferencia entre ASCII y
+                                Unicode</a></span></li>
+                </ul>
+            </li>
+            <li><a href="Estandares_Imagen.html">Estándares de imagen </a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/JPEG.html"> JPEG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/PNG.html"> PNG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/GIF.html"> GIF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/TIFF.html"> TIFF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/WMF.html"> WMF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/raster.html"> Datos raster</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Imagen/comparacion.html"> Comparación
+                                general</a></span></li>
+                </ul>
+            </li>
+            <li><a href="Estandares_Audio.html">Estándares de audio</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="Audio/MP3.html"> MP3</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Audio/FLAC.html"> FLAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Audio/Ogg-vorbis.html"> Ogg-Vorbis</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Audio/AAC.html"> AAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Audio/WMA.html"> WMA</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Audio/comparacion.html"> Comparacion</a></span></li>
+                </ul>
+            </li>            <li><a href="">Estándares de video</a></li>
+            <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="audio">
+            <section class="textos-header">
+                <h1>Estándares de audio</h1>
+            </section>
+        </section>
+
+    </header>
+
+    <Que>
+        <p>
+            Cuando una música es grabada, el micrófono captura las ondas de sonido del aire y las convierte en una señal
+            eléctrica. En la grabación analógica ,la grabadora almacena ese sonido capturado por el micrófono, como una
+            señal de audio continua. Esto se graba en un medio físico, como vinilo o cinta. En la grabación digital, las
+            ondas sonoras no son continuas: se transforman en una serie de pequeñas señales digitales. Estas señales son
+            como piezas de una canción. Similar a cómo una cámara digital transforma una imagen en miles de píxeles.
+            <br>
+            Estos datos digitales nunca serán exactamente iguales a la onda de sonido original , así como no puedes
+            obtener una curva perfecta en una imagen a través de pequeños cuadrados (píxeles) . Pero cuanto más pequeñas
+            sean las señales que crea la computadora, más cerca estarán de la ondas originales . Con suficientes señales
+            digitales, eventualmente alcanzarás un punto donde el oído humano no puede distinguir entre el sonido
+            digital y la canción original. De nuevo, es como en las fotos digitales: cuantos más píxeles, más real se
+            verá la foto, llegando hasta el punto donde el ojo no puede notar más que la foto digital es diferente de la
+            imagen real, alcanzando el punto donde una imagen contiene tantos micro cuadrados que realmente parecen ser
+            capaces de crear curvas perfectas.
+            <br>
+            Entonces, una señal eléctrica analógica, como el caso del Audio puede ser convertida en información digital,
+            y de este
+            modo ser guardada y procesada en un dispositivo electrónico. El proceso se llama Conversión
+            Analógico-Digital y consta de dos etapas:
+
+        <ol>
+            <li>Muestreo o la lectura (toma de una muestra) de la señal cada cierto tiempo, es decir a una determinada
+                frecuencia de Muestreo </li> <br>
+            <li>Cuantificación o la medición del valor de la muestra, con una determinada precisión o resolución, medida
+                en
+                número de bits o (bit size) </li> <br>
+        </ol>
+
+        Como resultado, obtenemos una secuencia de valores numéricos, lo que representa el Audio Digital. Todo el
+        proceso lo realiza un chip llamado conversor Analógico Digital o ADC. El proceso inverso se realiza mediante un
+        conversor Digital-Analógico o DAC. La etapa de codificación podemos separarla en dos procesos. La codificación y
+        la compresión.
+
+        <ol>
+            <li>
+                La Codificación asigna un conjunto de bits al valor de cada muestra. La codificación más sencilla es la
+                PCM en
+                la que el valor de muestra se representa directamente con su número binario correspondiente. Otras
+                codificaciones emplean curvas de asignación (como µlaw o ADPCM) como mejora en los valores más pequeños
+            </li> <br>
+            <li>La Compresión está obligadamente presente dentro del proceso, y tiene como finalidad reducir el tamaño
+                de los datos. Existen diferentes tipos de formatos de musica basados en diferentes compresiones; los
+                formatos de audio digital son, básicamente, contenedores. Y las diferencias entre ellos están
+                fundamentalmente en: 1. Si están o no comprimidos. 2- Si están comprimidos, en la calidad de la
+                compresión. 3- El tipo de etiquetado que pueden soportar. <br>
+                Entre las compresiones más populares encontramos las
+                compresiones MP3, OGG, AAC, FLAC y WMA.</li>
+        </ol>
+
+        <h3>Extra</h3>
+        <p>Ahora, si se desea saber un poco más acerca de los estándares anteriormente mencionados, puede hacerlo
+            haciendo click en alguno de los items de esta lista</p>
+        <ol>
+            <li> <span style="font-weight: bold;"> <a href="Audio/MP3.html"> MP3</a></span></li>
+            <li> <span style="font-weight: bold;"> <a href="Audio/FLAC.html"> FLAC</a></span></li>
+            <li> <span style="font-weight: bold;"> <a href="Audio/Ogg-vorbis.html"> Ogg-Vorbis</a></span></li>
+            <li> <span style="font-weight: bold;"> <a href="Audio/AAC.html"> AAC</a></span></li>
+            <li> <span style="font-weight: bold;"> <a href="Audio/WMA.html"> WMA</a></span></li>
+        </ol>
+
+        Si se quiere saber cuál es la diferencia entre este tipo de formatos puede dar cick <span
+            style="font-weight: bold;"> <a href="Audio/comparacion.html"> Aqui</a></span>
+        <br><br><br><br>
+    </Que>
+</body>
+
+</html>

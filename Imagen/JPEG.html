@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPEG</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+
+<body>
+    
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../Estandares_Texto.html">Estándares de texto</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="../Textos/ASCII.html"> ASCII</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Textos/Unicode.html"> Unicode</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Textos/RTF.html"> RTF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Textos/PostScript.html"> PostScript</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Textos/PDF.html"> PDF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Textos/comparacion.html"> Diferencia entre ASCII y
+                                Unicode</a></span></li>
+                </ul>
+            </li>
+            <li><a href="../Estandares_Imagen.html">Estándares de imagen </a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="JPEG.html"> JPEG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="PNG.html"> PNG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="GIF.html"> GIF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="TIFF.html"> TIFF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="WMF.html"> WMF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="raster.html"> Datos raster</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="comparacion.html"> Comparación
+                                general</a></span></li>
+                </ul>
+            </li>
+            <li><a href="../Estandares_Audio.html">Estándares de audio</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/MP3.html"> MP3</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/FLAC.html"> FLAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/Ogg-vorbis.html"> Ogg-Vorbis</a></span>
+                    </li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/AAC.html"> AAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/WMA.html"> WMA</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/comparacion.html"> Comparacion</a></span>
+                    </li>
+                </ul>
+            </li>
+            
+            <li><a href="">Estándares de video</a></li>
+            <li><a href="../sobreNosotros.html">Sobre nosotros</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="imagen">
+            <section class="textos-header">
+                <h1>JPEG</h1>
+            </section>
+        </section>
+    </header>
+
+
+    <Que>
+        <h3>¿Qué es?</h3>
+        <p>Significa "Grupo Conjunto de Expertos en Fotografía". JPEG es una imagen popular formato de archivo. Es
+            comúnmente usado por cámaras digitales para almacenar fotos.
+            Este formato se caracteriza principalmente por ser abierto, los derechos de autor son libres y puede ser
+            usado o implementado en un programa, sin necesidad de pagar por derechos de autor.
+            <br> <br>
+        </p>
+
+        <h3>Inicios</h3>
+        <p>La especificación JPEG original publicada en 1992 implementa los procesos de varios documentos de
+            investigación y patentes anteriores Citados por el CCITT (ahora UIT - T) y el Grupo Conjunto de expertos
+            fotográficos. <br><br>
+            El formato JPEG o JPG nace como una respuesta a las limitaciones de otros formatos, es utilizado como
+            extensión predeterminada por las cámaras digitales debido a que permite comprimirlas sin necesidad de bajar
+            su calidad en la resolución y nos libera el espacio.
+            <br> <br>
+        </p>
+
+        <h3>¿Cómo se almacena?</h3>
+        <p>El formato oficial, conocido como Formato de Intercambio JPEG (JIF), es poco usado debido a la dificultad de
+            implementar codificadores y decodificadores que se apeguen completamente al estándar.
+            Otros formatos han surgido para solucionar esta situación, principalmente el Formato de Intercambio de
+            Archivos JPEG (JFIF) y el Formato de Archivo de Imagen Intercambiable (Exif) haciendo uso de los marcadores
+            de aplicación (APP0 y APP1, respectivamente), para declarar metadatos. <br><br>
+            Las extensiones más comunes para archivos que usan compresión JPEG son .jpg (inicialmente para Windows) y
+            .jpeg (inicialmente Linux y MacOS). Otras extensiones son .jif, .jfif y .jpe.
+            <br> <br>
+        </p>
+
+        <h3>Caracteristicas</h3>
+        <ol>
+            <li>El archivo en sí de una imagen JPEG consiste de una serie de segmentos. Cada segmento comienza con un
+                marcador, denotado por el byte inicial 0xFF, un byte que determina el tipo de segmento y otros dos bytes
+                opcionales para la longitud de los datos insertados en el segmento. </li> <br>
+            <li> Soporta un tamaño máximo de 65.535 x 65.535 píxeles. </li> <br>
+            <li> Reduce el tamaño de una imagen en un 50-75% (debido a la compresión con pérdida) cuando se guarda.
+            </li> <br>
+        </ol>
+
+
+        <h3>¿Cómo surgió?</h3>
+        <p>
+            El estándar JPEG fue desarrollado por el comité del Grupo Colectivo de Expertos Fotográficos (con la misma
+            abreviación, JPEG), que es un esfuerzo conjunto entre la Organización Internacional de Estandarización (ISO)
+            y la Comisión Electrotécnica Internacional (IEC).
+        </p><br>
+
+
+        <h3>Versiones</h3>
+        <ol>
+            <li>JPEG: La primera norma JPEG fue emitida en 1992 por ISO </li> <br>
+            <li>JPEG-LS: Es una adición de 1993 al estándar JPEG para permitir la compresión sin pérdida. </li> <br>
+            <li>JPEG 2000: Sistema de codificación de imágenes creado por el Grupo Mixto de Expertos Fotográficos en
+                2000 que fue diseñado para ser mejor que el estándar JPEG ya existente. </li> <br>
+        </ol>
+
+        <h3>¿Cómo funciona la compresion del JPEG?</h3>
+            Su uso ha proliferado tanto porque consigue reducir el tamaño de la imagen sin compresión 10 veces, sin que
+            notemos demasiado que la calidad se ha visto mermada, y esto se logra gracias a la aplicación en el
+            algoritmo de compresión del conocimiento que tenemos del funcionamiento del ojo.
+
+        <h4>Algoritmo</h4>
+            El algoritmo de compresión JPEG, es un algoritmo de compresión con pérdida, esto quiere decir que pierde
+            información y, por tanto, calidad de imagen, pero, gracias a cómo aprovecha los defectos del ojo humano, no
+            nos damos cuenta de la pérdida. Sus pasos son:
+            <br>
+        <ol>
+            <li>Se parte de una imagen donde cada píxel o punto de la imagen está formado por una intensidad de rojo,
+                otra de verde y otra de azul </li> <br>
+            <li>Coge los canales de color y les quita resolución o, dicho de otra forma, les hace un submuestreo, Esto
+                es algo así como pixelar la imagen . </li> <br>
+            <li>lo podemos configurar en los programas de retoque fotográfico al guardar una imagen JPG. Suele aparecer
+                algo como "4:2:2", "4:2:0" o "4:4:4“ donde… </li> <br>
+            <li>Se dividen todos los canales en cuadrados de 8x8 píxeles y se les aplica por separado los siguientes
+                pasos del algoritmo de compresión. </li> <br>
+            <li>Transformada: se hace algo llamado transformada discreta bidimensional del coseno y cuantificación
+                perceptual. Visualmente lo que le hace a la imagen es suavizar las variaciones bruscas de brillo y de
+                color </li> <br>
+            <li>Por último, se aplica un algoritmo de compresión sin perdida de información, llamado algoritmo de
+                Huffman. </li> 
+        </ol>
+        <img src="../img/img/algoritmo compresion jpeg.jpg"> <br>
+
+
+        <h4>Serie de Fourier</h4>
+        La Serie de Fourier es una herramienta matemática que nos permite obtener información de una función determinada
+        mediante una transformación (donde entenderemos por “transformación” al proceso que reduce la complejidad de una
+        ecuación).
+
+        <h4>Procesamiento</h4>
+        <ol>
+            <li> Dada una imagen en escala de grises lo primero que realizamos es una partición de la misma en bloques
+                de 8 × 8 pixeles.
+            </li> <br>
+            <li> Para mostrar la matemática detrás del formato JPEG vamos a trabajar con el bloque de tamaño 8×8
+                correspondiente
+                al bloque. </li> <br>
+            <li> Mostramos la matriz 8 × 8 que representa la intensidad de grises de la imagen anterior con valores
+                entre 0
+                (negro) y 255 (blanco) </li> <br>
+        </ol>
+        <img src="../img/img/jpeg procedimiento 1.JPG"> <br>
+
+        Un ejemplo de la matriz resultante:<br>
+        <img src="../img/img/jpeg procedimiento 2.JPG"> <br>
+
+
+        <h4>Transformación</h4>
+        El formato de compresión estándar de imagen JPEG utiliza la transformada del coseno discreta dada por la matriz
+        C siguiente. Igualmente esta transformación se puede por medio de una serie de Fourier.
+        <br>
+        <img src="../img/img/jpeg transformacion.JPG"> <br>
+
+        En este caso la matriz resultante al aplicarle la transformada DT C queda:
+        <br><img src="../img/img/jpeg transformada.JPG"> <br>
+
+        <h4>Imagen original vs transformada</h4>
+        <img src="../img/img/jpeg original vs transformada.JPG"> <br>
+
+        <h4>Cuantificación</h4>
+        El proceso de cuantificación consiste en dividir cada entrada de la matriz U por los elementos de la siguiente
+        matriz de cuantificación Q.<br>
+        <img src="../img/img/jpeg cuantificacion.JPG"> <br>
+
+        <h4>Imagen cuantificada vs transformada</h4>
+        <img src="../img/img/jpeg cuantificada vs transformada.JPG"> <br>
+
+        <h4>Codificación</h4>
+        El último paso en el proceso JPEG es codificar la imagen transformada y cuantificada. El estándar de compresión
+        JPEG usa una versión avanzada del código de Huffman, siguiendo un recorrido en zig-zag en la matriz para obtener
+        una lista con los ceros acumulados al final
+        <br>
+        <img src="../img/img/jpeg codificacion.JPG"> <br>
+
+        La lista para esta matriz es:
+        <br><img src="../img/img/jpeg codificacion 2.JPG"> <br>
+
+        <br> <br><br>
+    </Que>
+
+</body>
+
+</html>

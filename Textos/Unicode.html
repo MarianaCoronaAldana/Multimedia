@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicode</title>
+    <link rel="stylesheet" href="../estilo.css">
+
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../Estandares_Texto.html">Estándares de texto</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="ASCII.html"> ASCII</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Unicode.html"> Unicode</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="RTF.html"> RTF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="PostScript.html"> PostScript</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="PDF.html"> PDF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="comparacion.html"> Diferencia entre ASCII y
+                                Unicode</a></span></li>
+                </ul>
+            </li>
+            <li><a href="../Estandares_Imagen.html">Estándares de imagen </a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/JPEG.html"> JPEG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/PNG.html"> PNG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/GIF.html"> GIF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/TIFF.html"> TIFF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/WMF.html"> WMF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/raster.html"> Datos raster</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/comparacion.html"> Comparación
+                                general</a></span></li>
+                </ul>
+            </li>
+            <li><a href="../Estandares_Audio.html">Estándares de audio</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/MP3.html"> MP3</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/FLAC.html"> FLAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/Ogg-vorbis.html"> Ogg-Vorbis</a></span>
+                    </li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/AAC.html"> AAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/WMA.html"> WMA</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/comparacion.html"> Comparacion</a></span>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Estándares de video</a></li>
+            <li><a href="../sobreNosotros.html">Sobre nosotros</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="texto">
+            <section class="textos-header">
+                <h1>Unicode</h1>
+            </section>
+        </section>
+    </header>
+
+
+    <Que>
+        <h3>Definición</h3>
+        <p>Es un estándar de codificación de caracteres que tiene la finalidad de visualizar y transmitir textos de
+            diversos idiomas y disciplinas técnicas, incluyendo hasta lenguas muertas.
+
+            La codificación de caracteres permite representar caracteres como números
+            <br> <br>
+        </p>
+
+        <h3>¿Para qué fue creado?</h3>
+        <ol>
+            <li>Universalidad: Un repertorio suficientemente amplio que albergue a todos los caracteres probables en el
+                intercambio de texto multilingüe.
+            </li>
+            <li> Eficiencia: Las secuencias generadas deben ser fáciles de tratar. </li>
+            <li> No ambigüedad: Un código dado siempre representa el mismo carácter. </li>
+        </ol>
+        <br>
+
+        <h3>Ventajas</h3>
+        <ol>
+            <li> Es actualizado Cada año.
+            </li>
+            <li> Cuenta con los caracteres de casi todos los idiomas del mundo, caracteres, sistemas ideográficos y
+                colecciones de símbolos.
+            </li>
+            <li> Es compatible con versiones anteriores de esquemas de codificación ASCII y se evitan complicaciones de
+                "endianness" u orden de bytes.
+            </li>
+            <li> Brinda soporte a C, Java, JavaScript, Perl, Etc. </li>
+        </ol>
+        </p>
+        <br>
+
+        <h3>¿Cómo funciona?</h3>
+        <ol>
+            <li>Asigna un número único (un punto del código) a cada carácter. </li>
+            <li>UTF-8, UTF-16 Y UTF-32 </li>
+            <li>Se añade una “U” antes de la cadena. </li>
+        </ol>
+        <br>
+
+        <h3>Tabla de Caracteres Comunes</h3>
+        <img src="../img/TablaUnicode.JPG"> <br>
+        <br>
+        </p>
+
+        <h3>Versiones</h3>
+        <ul>
+            <li> 1.0 (Octubre 1991 con 7161 caracteres)
+                El repertorio inicial cubre los alfabetos: árabe, armenio, bengalí, bopomofo, cirílico, devanagari,
+                georgiano, griego/copto, guyaratí, gurmukhi, hangul, hebreo, hiragana, kannada, katakana, lao, latino,
+                malayalam, oriya, támil, télugu, thai, y tibetano.
+            </li> <br>
+            <li> 1.0.1 (Junio 1992 con 28,359 caracteres)
+                Definido el primer conjunto de 20.902 ideogramas CJK unificados. (Contiene símbolos y puntuación
+                utilizados para escribir los idiomas chino, japonés y coreano)
+            </li> <br>
+            <li> 1.1 (Junio 1993 con 34,233 caracteres) Se agregan 4.306 caracteres Hangul más al conjunto original de
+                2.350. Se elimina el alfabeto original tibetano.
+            </li> <br>
+            <li> 2.0 (Julio 1996 con 38,950 caracteres)
+                Se reacomodan todos los caracteres hangul de manera agrupada y se agregan otros 11,172. Se reincorpora
+                el alfabeto tibetano en nueva ubicación.
+            </li> <br>
+            <li> 2.1 (Mayo 1998 con 38,952) Se agrega el símbolo del euro.
+            </li> <br>
+            <li> 3.0 (Septiembre 1999 con 49,259 caracteres)
+                Se agregan ideogramas Cherokee. Escrituras Etíope, Jemer, Mongol, Myanmar, Ogham, Alfabeto rúnico,
+                Cingalés, Siríaco, Thaana, Silabario unificado de los indígenas canadienses, y Yi además de los patrones
+                Braille.
+            </li> <br>
+            <li> 3.1 (Marzo 2001 con 94,205 caracteres)
+                Se agregan los alfabetos Deseret, Gótico y Etrusco, y los símbolos de Notación musical moderna, Música
+                bizantina, y 42.711 ideogramas de CJK unificado.
+            </li> <br>
+            <li> 3.2 (Marzo 2002 con 95.221 caracteres)
+                Agregadas las escrituras filipinas: Buhid, Hanunoo, Tagalo, y Tagbanwa.
+            </li> <br>
+            <li> 4.0 (Abril 2003 con 96,447 caracteres)
+                Se agrega el Silabario chipriota, Limbu, Lineal B, Osmanya, Shaviano, Tai Le, y Ugarítico, y los
+                símbolos Hexagrama.
+            </li> <br>
+            <li> 4.1 (Marzo 2005) con 97,720 caracteres)
+                Agregados Buginese, Glagolítico, Kharoshthi, New Tai Lue, Persa antiguo, Syloti Nagri, y Tifinagh. Se
+                separa el Copto del alfabeto griego. Símbolos griegos antiguos para música y numeración.
+            </li>
+            <br>
+            <li> 5.0 (Julio 2006 con 99,089 caracteres)
+                Agregados Balinés, Cuneiforme, N'Ko, Phags-pa, y Fenicio </li>
+            <br>
+            <li> 5.1 (Abril 2008 con 100,713 caracteres)
+                Agregados escritura caria, Cham, Kayah Li, escritura lepcha, Alfabeto licio, Alfabeto Lidio, Alfabeto Ol
+                Chiki, Rejang, Saurashtra, Sundanés, y el Vai. Los jeroglíficos del Disco de Festos, fichas de Mahjong y
+                de Dominó. Adiciones importantes para el Birmano, letras y abreviaturas de amanuense utilizadas en
+                manuscritos medievales y la adición de la ß mayúscula.
+            </li>
+            <br>
+            <li>5.2 (Octubre 2009 con 107,361 caracteres)
+                Agregados: bamúm, javanés, lisu, meetei mayek, samaritano, tai tham, y tai viet. Se ha ampliado el
+                devanagari con la adición del alfabeto sánscrito. Ampliaciones importantes para abjasio, el silabario
+                unificado de los indígenas canadienses, copto, khamti shan, malayo, myanmar. También se agregan símbolos
+                y caracteres históricos como los jeroglíficos egipcios de Gardiner, arameo imperial, avéstico, kaithi,
+                antiguo árabe del Sur y turco antiguo.
+            </li>
+            <br>
+            <li>6.0 (Octubre de 2010 con 109,449)
+                Primera versión principal del estándar publicada exclusivamente en soporte electrónico. Agregados
+                mandeo, batak y brahmi, ampliaciones de lenguajes africanos como tifinagh, etíope y bamúm. Otras
+                adiciones importantes son: 222 ideogramas CJK, 1000 símbolos incluyendo los pictogramas emoji, el nuevo
+                símbolo oficial para la rupia y símbolos alquímicos además de ampliaciones de los atributos de los
+                caracteres y otras modificaciones normativas y algorítmicas.
+            </li>
+            <br>
+            <li>6.1 (2012 con 110,116 caracteres)
+                Incluye extensiones de varios alfabetos existentes; son significativas las adiciones al alfabeto árabe
+                que incluyen 143 símbolos matemáticos alfabéticos, y los alfabetos Pollard Miao, Sorang Sompeng,
+                escritura meroítica, Chakma, Alfabeto sharada y 13 emoticonos.
+            </li>
+            <br>
+            <li>6.2 (2012 con 110,117 caracteres)
+                Publicación especial para la introducción de la Lira turca
+            </li>
+            <br>
+            <li>6.3 (2013 con 110,122 caracteres)
+                Revisión del algoritmo de texto bidireccional con la adición de 5 caracteres especiales. El nuevo
+                algoritmo bidireccional mejora la representación conjunta de textos de diferentes fuentes respetando el
+                orden correcto de los caracteres.
+            </li>
+            <br>
+            <li>7.0 (2014 con 112,956 caracteres)
+                Agrega 23 nuevos sistemas de escritura.
+            </li>
+            <br>
+            <li>8.0 (2015)
+                36 emojis, lengua lk de Uganda, Kulango de Costa de Marfil y otros idiomas de Africa. Además se hacen
+                adiciones al CJK.
+            </li>
+            <br>
+            <li>9.0 (2016)
+                72 nuevos emoticonos, se eliminan emojis que incitan a la violencia.
+            </li>
+            <br>
+            <li>10.0 (2017 con 136,690 caracteres)
+                Entre otros se agrega el símbolo de Bitcoin, 56 caracteres emoji y los sistemas de escritura: Masaram
+                Gondi, Nü Shu, Soyombo y la escritura mongola cuadrada de Zanabazar. Se introduce la extensión F de
+                caracteres unificados CJK.
+            </li>
+            <br>
+            <li>11.0 (Junio 2018 con 137,374 caracteres)
+                Dogra, letras capitales de Georgian Mtavruli, Gunjala Gondi, Hanifi Rohingya, Makasar, Medefaidrin, Old
+                Sogdian, Sogdian, y varios símbolos (5 nuevos ideogramas unificados CJK, 66 emoji adicionales, copyleft,
+                media estrella, símbolos astrológicos adicionales y de ajedrez chino Xiangqi)
+            </li>
+            <br>
+            <li>12.0 (Marzo 2019)
+                230 nuevos emojis relacionados a colores de piel, sentimientos y discapacidades.
+            </li>
+            <br>
+            <li>13.0 (Marzo 2020 con 143,859 caracteres)
+                Soporte a idiomas menos utilizados. Se agregan lenguas muertas como Yezidi, chorasmian, kazajstan,
+                turkmenistan, dives akuru, khitan y varios idiomas de Africa. 55 nuevos emojis.
+            </li>
+            <br>
+            <li>14.0 (Septiembre 2021 con 144,697 caracteres)
+                37 nuevos emojis, nuevas lenguas muertas como toto, crypo-minoan, antiguo uigur, tangsa. Adiciones al
+                alfabeto árabe.
+            </li>
+            <br>
+
+        </ul>
+        </p>
+        <br> <br>
+
+    </Que>
+
+
+</body>
+
+</html>

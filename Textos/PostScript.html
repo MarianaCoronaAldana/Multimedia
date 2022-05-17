@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="PostScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostScript</title>
+    <link rel="stylesheet" href="../estilo.css">
+
+</head>
+
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../Estandares_Texto.html">Estándares de texto</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="ASCII.html"> ASCII</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="Unicode.html"> Unicode</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="RTF.html"> RTF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="PostScript.html"> PostScript</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="PDF.html"> PDF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="comparacion.html"> Diferencia entre ASCII y
+                                Unicode</a></span></li>
+                </ul>
+            </li>
+            <li><a href="../Estandares_Imagen.html">Estándares de imagen </a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/JPEG.html"> JPEG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/PNG.html"> PNG</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/GIF.html"> GIF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/TIFF.html"> TIFF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/WMF.html"> WMF</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/raster.html"> Datos raster</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Imagen/comparacion.html"> Comparación
+                                general</a></span></li>
+                </ul>
+            </li>
+            <li><a href="../Estandares_Audio.html">Estándares de audio</a>
+                <ul>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/MP3.html"> MP3</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/FLAC.html"> FLAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/Ogg-vorbis.html"> Ogg-Vorbis</a></span>
+                    </li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/AAC.html"> AAC</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/WMA.html"> WMA</a></span></li>
+                    <li> <span style="font-weight: bold;"> <a href="../Audio/comparacion.html"> Comparacion</a></span>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Estándares de video</a></li>
+            <li><a href="../sobreNosotros.html">Sobre nosotros</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="texto">
+            <section class="textos-header">
+                <h1>PostScript</h1>
+            </section>
+        </section>
+    </header>
+
+
+    <Que>
+        <h3>Definición</h3>
+        <p>Es un lenguaje de descripción de página.
+            Es usado para decirle a una máquina destinada a imprimir cómo y qué debe imprimir.
+            Utiliza una extensión .ps
+            <br> <br>
+        </p>
+
+        <h3>¿Quién lo propuso?</h3>
+        <p>Adobe desarrolló PostScript hacia 1984 por John Warnock y Charles Geschke para estandarizar los contenidos de
+            una Página. La historia fue más o menos así: <br>
+        <ol>
+            <li> Se reconoce la necesidad de algún mecanismo estándar para definir los contenidos de una página
+            </li>
+            <li> Xerox lanza así la iniciativa InterPress como método estándar de descripción de páginas </li>
+            <li> Los trabajadores Warnock y su jefe, Charles Geschke, intentan convertir InterPress en un producto
+                comercial. Al no obtener resultados, en 1982 abandonan Xerox y fundan “Adobe” </li>
+            <li> Desarrollan herramientas para que otros fabricantes pudieran controlar sus impresoras. Tomaron como
+                base InterPress y derivaron de él un lenguaje más simple, al que denominaron PostScript </li> <br>
+        </ol>
+        </p>
+
+        <h3>¿Para qué fue creado?</h3>
+        <p>En los comienzos de los 80, se utilizaban los llamados sistemas de fotocomposición o preprensa, que eran
+            tecnológicamente complejos y cerrados
+            Fue desarrollado por Adobe Systems Inc. como una herramienta independiente de la plataforma y el dispositivo
+            para la descripción de páginas <br>
+
+            PostScript inicialmente se diferenció por utilizar un lenguaje de programación completo para describir una
+            imagen de impresión.
+            Implementó la composición de imágenes como: <br>
+        </p>
+        <ol>
+            <li>Líneas horizontales </li>
+            <li>Píxeles al vuelo </li>
+            <li>Descripciones de curvas mediante “curvas de Bezier” </li>
+            <li>Tipos de letra de alta calidad a baja resolución </li>
+        </ol>
+        <br>
+
+        <h3>Versiones</h3>
+        <ul>
+            <li> Nivel 1. Independencia total del dispositivo, portabilidad entre aparatos y disponibilidad pública del
+                código y su sintaxis, lo que permite a cualquiera escribir un programa que pueda generar ficheros
+                PostScript que aprovechen al máximo la resolución del dispositivo.
+            </li> <br>
+            <li> Nivel 2. Introducido en 1991, implementó varias mejoras generales al rendimiento en general. Tiene una
+                gestión de memoria ampliamente mejorada, junto con una mayor velocidad y fiabilidad. Una capacidad de
+                realizar la separación del color dentro del RIP (Intérprete PostScript) y una capacidad de recibir
+                imágenes comprimidas en determinados formatos.
+                Soporta fuentes asiáticas y mejora los controladores de la impresora ademas de los algoritmos de tramado
+                de semitonos.
+            </li> <br>
+            <li>Nivel 3. A fines de 1997, Adobe lanza PostScript 3, donde incorpora el soporte de espacios de color
+                genéricos, y utiliza 12 bits para describir las lineaturas de semitono. Esto permitió llegar a trabajar
+                con hasta 4096 tonos del mismo color.
+                El control mejorado de las sepataciones de color permitió superar la cuatricromía convencional (CMYK)
+            </li> <br>
+            <li>Nivel 4. Según Adobe, no habrá una siguiente versión de PostScript. PDF es la plataforma de impresión de
+                última generación, que recoge las características más importantes de PostScript 3 y las amplía con un
+                mejor manejo de colores planos, algoritmos para el renderizado de patrones y procesamiento paralelo de
+                azulejos y baldosas.
+            </li> <br>
+        </ul>
+        </p>
+        <br>
+    </Que>
+
+
+</body>
+
+</html>
